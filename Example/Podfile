@@ -8,6 +8,5 @@ target 'Pack_MTGLDebug_Example' do
   target 'Pack_MTGLDebug_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
   end
 end
