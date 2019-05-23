@@ -1,23 +1,10 @@
 # Pack_MTGLDebug
-
-[![CI Status](https://img.shields.io/travis/hello.david.me@gmail.com/Pack_MTGLDebug.svg?style=flat)](https://travis-ci.org/hello.david.me@gmail.com/Pack_MTGLDebug)
-[![Version](https://img.shields.io/cocoapods/v/Pack_MTGLDebug.svg?style=flat)](https://cocoapods.org/pods/Pack_MTGLDebug)
-[![License](https://img.shields.io/cocoapods/l/Pack_MTGLDebug.svg?style=flat)](https://cocoapods.org/pods/Pack_MTGLDebug)
 [![Platform](https://img.shields.io/cocoapods/p/Pack_MTGLDebug.svg?style=flat)](https://cocoapods.org/pods/Pack_MTGLDebug)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-Pack_MTGLDebug is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+This is a demo repo to reproduce cocoapods-packager(1.5.0) --dynamic pack issue
 
 ```ruby
-pod 'Pack_MTGLDebug'
+pod _1.5.3_ package Pack_MTGLDebug.podspec --dynamic --verbose
 ```
 
 ## Author
