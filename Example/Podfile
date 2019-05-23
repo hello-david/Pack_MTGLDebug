@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'Pack_MTGLDebug_Example' do
+  pod 'Pack_MTGLDebug', :path => '../'
+
+  target 'Pack_MTGLDebug_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
