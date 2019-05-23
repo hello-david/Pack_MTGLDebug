@@ -9,7 +9,7 @@ pod _1.5.3_ package Pack_MTGLDebug.podspec --dynamic --verbose
 
 ## Author
 
-hello.david.me@gmail.com, dlm@meitu.com
+hello.david.me@gmail.com
 
 ## License
 
